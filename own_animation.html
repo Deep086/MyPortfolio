@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <style>
+        div#mydiv {
+            width: 200px;
+            height:200px;
+            background-color:rgb(255,, rgb(235, 10, 171));
+            position:relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count:5;
+            animation-direction: alternate;
+        }
+
+        @keyframes example{
+            0%{background-color:rgb(115, 8, 254);left:500px;top:200px;}
+            25% {background-color:rgb(4, 163, 237);left:750px;top:450px;}
+            50% {background-color:rgb(8, 233, 64);left:500px;top:700px;}
+            75% {background-color:rgb(247, 82, 5);left:350px;top:450px;}
+            100% {background-color:rgb(252, 11, 11);left:500px;top:200px;}
+        }
+        div#mydiv2{
+            width:200px;
+            height:200px;
+            background-color:rgb(255,, rgb(235, 10, 171));
+            position:relative;
+            animation-name: example2;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count:5;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes example2{
+            0%{background-color:rgb(115, 8, 254);left:500px;top:0px;}
+            25% {background-color:rgb(4, 163, 237);left:750px;top:250px;}
+            50% {background-color:rgb(8, 233, 64);left:500px;top:500px;}
+            75% {background-color:rgb(247, 82, 5);left:350px;top:250px;}
+            100% {background-color:rgb(252, 11, 11);left:500px;top:0px;}
+        
+        
+        }
+    </style>
+
+</head>
+<body>
+    <h1>rhombus</h1>
+    <div id="mydiv"></div>
+    <div id="mydiv2"></div>
+    
+</body>
+</html>
